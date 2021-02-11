@@ -3,7 +3,7 @@
 # ссылка: 
 # https://us02web.zoom.us/rec/play/aFJARXD3QPoCtyOBtO3JJrToKCdfhTCqQjeFHsKXv9u9q19c11yuyIECqEPPg7uSB1YJuYjZa7qOyhnV.ZuYRBPDhPajuQXvq?continueMode=true&_x_zm_rtaid=__w6UuLjR0W9OtXYi6i5CQ.1611994976641.a37456740e2448d3a05bb05a38643505&_x_zm_rhtaid=946
 # api.openweathermap.org/data/2.5/weather?q={almaty}&appid={8b682e300f8818e7cc6238b05b3fc814} 
-# to devel conect with git sudo rm -R .git
+# to delet conection with git: sudo rm -R .git
 
 from typing import Optional
 from fastapi import FastAPI, Request
