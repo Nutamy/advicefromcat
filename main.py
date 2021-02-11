@@ -14,18 +14,6 @@ from random import randint
 app = FastAPI()
 templates = Jinja2Templates(directory='templates')
 
-db_data = {
-    'maria': {
-        'age': 22,
-        'alumni': 'KIMEP',
-        'status': 'bachelor'
-    },
-    'ali': {
-        'age': 25,
-        'alumni': 'AUES',
-        'status': 'student'
-    }
-}
 class RequestAPI:
     url = 'https://api.quotable.io/random'
     def get_all(self):
