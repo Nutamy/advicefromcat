@@ -1,7 +1,6 @@
 # весь год урока
 from fastapi import FastAPI
 import requests
-import re
 
 app = FastAPI()
 
@@ -30,7 +29,7 @@ class RequestAPI:
 @app.get('/')
 def index():
     index_req = RequestAPI()
-    return 'Type currency in url line to get conversion rates \n example: EUR/GBP'
+    return 'Type currency in url line to get conversion rates  example: EUR/GBP'
 
 @app.get('/{currency}')
 def curr(currency):
